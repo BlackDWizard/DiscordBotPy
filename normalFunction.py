@@ -214,6 +214,7 @@ class normalFunction(commands.Cog):
         @client.command()
         async def 加油(ctx):
             if (ctx.channel.id == settingDictionary["OfficialChannelID"]):
+                sender = str(ctx.author.id)
                 await ctx.send("<@" + sender + "> 買車C300 加油加300")
 
         @client.command()

@@ -32,8 +32,7 @@ class normalFunction(commands.Cog):
         @client.command()
         async def 乳滑(ctx):
             if (ctx.channel.id == settingDictionary["OfficialChannelID"]):
-                await ctx.send(
-                    "https://tenor.com/view/miss-you-we-miss-them-gif-13362284")
+                await ctx.send("https://tenor.com/view/miss-you-we-miss-them-gif-13362284")
 
         @client.command()
         async def 沒過(ctx):
@@ -48,24 +47,21 @@ class normalFunction(commands.Cog):
         @client.command()
         async def PA(ctx):
             if (ctx.channel.id == settingDictionary["OfficialChannelID"]):
-                await ctx.send(
-                    "https://tenor.com/view/worship-pa-pearl-abyss-gif-20263613")
+                await ctx.send("https://tenor.com/view/worship-pa-pearl-abyss-gif-20263613")
 
         @client.command()
         async def 大便(ctx):
             if (ctx.channel.id == settingDictionary["OfficialChannelID"]):
                 ranPopo = math.floor(random.random() * 50) + 1
                 sender = str(ctx.author.id)
-                await ctx.send("<@" + sender + "> 今天大便最長能拉到 " +
-                               str(ranPopo) + " 公分！")
+                await ctx.send("<@" + sender + "> 今天大便最長能拉到 " + str(ranPopo) + " 公分！")
 
         @client.command()
         async def 尻尻(ctx):
             if (ctx.channel.id == settingDictionary["OfficialChannelID"]):
                 ranKaokao = math.floor(random.random() * 60) + 1
                 sender = str(ctx.author.id)
-                await ctx.send("<@" + sender + "> 今天尻尻最久能尻 " +
-                               str(ranKaokao) + " 分鐘！")
+                await ctx.send("<@" + sender + "> 今天尻尻最久能尻 " + str(ranKaokao) + " 分鐘！")
 
         @client.command()
         async def 吃啥(ctx):
@@ -104,38 +100,30 @@ class normalFunction(commands.Cog):
             if (ctx.channel.id == settingDictionary["OfficialChannelID"]):
                 ranDick = math.floor(random.random() * 30) + 1
                 sender = str(ctx.author.id)
-                await ctx.send("<@" + sender + "> 今天雞雞最長能硬到 " +
-                               str(ranDick) + " 公分！")
+                await ctx.send("<@" + sender + "> 今天雞雞最長能硬到 " + str(ranDick) + " 公分！")
 
         @client.command()
         async def server(ctx):
             if (ctx.channel.id == settingDictionary["OfficialChannelID"]):
-                await ctx.send("```" + "Server name:" +
-                               ctx.guild.name +
-                               "\nTotal members:" +
-                               str(ctx.guild.member_count) +
-                               "```")
+                await ctx.send("```" + "Server name:" + ctx.guild.name + "\nTotal members:" + str(ctx.guild.member_count) + "```")
 
         @client.command()
         async def 早安(ctx):
             if (ctx.channel.id == settingDictionary["OfficialChannelID"]):
                 sender = str(ctx.author.id)
-                await ctx.send("早安啊~" + "<@" + sender +
-                               "> 今天也要繼續努力唷~")
+                await ctx.send("早安啊~" + "<@" + sender + "> 今天也要繼續努力唷~")
 
         @client.command()
         async def 午安(ctx):
             if (ctx.channel.id == settingDictionary["OfficialChannelID"]):
                 sender = str(ctx.author.id)
-                await ctx.send("午安啊~" + "<@" + sender +
-                               "> 吃飽了嗎？要堅持住唷~")
+                await ctx.send("午安啊~" + "<@" + sender + "> 吃飽了嗎？要堅持住唷~")
 
         @client.command()
         async def 晚安(ctx):
             if (ctx.channel.id == settingDictionary["OfficialChannelID"]):
                 sender = str(ctx.author.id)
-                await ctx.send("晚安啊~" + "<@" + sender +
-                               "> 你好嗎？你今天過得好嗎？")
+                await ctx.send("晚安啊~" + "<@" + sender + "> 你好嗎？你今天過得好嗎？")
 
         @client.command()
         async def 福利熊(ctx):
@@ -162,40 +150,35 @@ class normalFunction(commands.Cog):
             if (ctx.channel.id == settingDictionary["OfficialChannelID"]):
                 ranConfirm = math.floor(random.random() * 99) + 1
                 sender = str(ctx.author.id)
-                await ctx.send("<@" + sender + "> 的武漢肺炎確診機率是: " +
-                               str(ranConfirm) + ' %！')
+                await ctx.send("<@" + sender + "> 的武漢肺炎確診機率是: " + str(ranConfirm) + ' %！')
 
         @client.command()
         async def 點馬(ctx):
             if (ctx.channel.id == settingDictionary["OfficialChannelID"]):
                 ranFlyHorse = math.floor(random.random() * 90) + 1
                 sender = str(ctx.author.id)
-                await ctx.send("<@" + sender + "> 點馬層數: " +
-                               str(ranFlyHorse) + " 層！")
+                await ctx.send("<@" + sender + "> 點馬層數: " + str(ranFlyHorse) + " 層！")
 
         @client.command()
         async def 掉寶(ctx):
             if (ctx.channel.id == settingDictionary["OfficialChannelID"]):
                 ranTreasure = math.floor(random.random() * 999) + 1
                 sender = str(ctx.author.id)
-                await ctx.send("<@" + sender + "> 今日掉寶率: " +
-                               str(ranTreasure / 10) + " ‰！")
+                await ctx.send("<@" + sender + "> 今日掉寶率: " + str(ranTreasure / 10) + " ‰！")
 
         @client.command()
         async def 一夜致富(ctx):
             if (ctx.channel.id == settingDictionary["OfficialChannelID"]):
                 ranRich = math.floor(random.random() * 99) + 1
                 sender = str(ctx.author.id)
-                await ctx.send("<@" + sender + "> 今日就發財機率: " +
-                               str(ranRich) + " %！")
+                await ctx.send("<@" + sender + "> 今日就發財機率: " + str(ranRich) + " %！")
 
         @client.command()
         async def 發財(ctx):
             if (ctx.channel.id == settingDictionary["OfficialChannelID"]):
                 ranRich = math.floor(random.random() * 99) + 1
                 sender = str(ctx.author.id)
-                await ctx.send("<@" + sender + "> 今日就發財機率: " +
-                               str(ranRich) + " %！")
+                await ctx.send("<@" + sender + "> 今日就發財機率: " + str(ranRich) + " %！")
 
         @client.command()
         async def 淨化(ctx):
@@ -240,8 +223,7 @@ class normalFunction(commands.Cog):
                 biglottery = sorted(biglottery)
                 for i in range(len(biglottery)):
                     lotteryStr += str(biglottery[i]) + " "
-                await ctx.channel.send("<@" + sender + "> 大樂透電腦隨機選號：" +
-                                       lotteryStr)
+                await ctx.channel.send("<@" + sender + "> 大樂透電腦隨機選號：" + lotteryStr)
 
         @client.command()
         async def 威力彩(ctx):
@@ -267,9 +249,7 @@ class normalFunction(commands.Cog):
                 biglottery = sorted(biglottery)
                 for i in range(len(biglottery)):
                     lotteryStr += str(biglottery[i]) + " "
-                await ctx.channel.send("<@" + sender + "> 威力彩第一區號碼：" +
-                                       lotteryStr + " 第二區號碼：" +
-                                       str(second))
+                await ctx.channel.send("<@" + sender + "> 威力彩第一區號碼：" + lotteryStr + " 第二區號碼：" + str(second))
 
         # @client.command()
         # async def test(ctx, arg):
